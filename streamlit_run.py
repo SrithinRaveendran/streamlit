@@ -3,11 +3,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from joblib import load
+#import seaborn as sns
+#from sklearn.preprocessing import LabelEncoder
+#from sklearn.model_selection import train_test_split
+#from sklearn.ensemble import RandomForestRegressor
+#from joblib import load
 #model = load('C:/Users/SRITHIN RAVEENDRAN/Desktop/project2/cibil_Score.joblib','rb')
 model=pickle.load(open('C:/Users/SRITHIN RAVEENDRAN/Desktop/for vscode/cibil_Score.pkl','rb'))
 def main():
